@@ -1,13 +1,15 @@
+import PlateGame from "./components/PlateGame/PlateGame"
 
 
-import './App.css'
+
 
 function App() {
-  
-
   return (
     
-      <h1 className='text-4xl bg-red-500'>Hello</h1>
+      <div className='container h-screen mx-auto  bg-red-500 font-serif	'>
+        <h1 className="text-4xl font-bold text-center text-neutral-400 pt-4" >Tic Tac Toe</h1>
+        <PlateGame />
+      </div>
    
   )
 }
