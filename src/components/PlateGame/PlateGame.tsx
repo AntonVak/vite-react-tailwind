@@ -102,9 +102,6 @@ console.log(currentPlayer);
         newValues[cellIndex] = currentPlayer;
         // console.log(currentPlayer);
         setGame(newValues);
-        changePlayer()
-        
-
 
     }
     return ( 
