@@ -1,6 +1,13 @@
 
+interface TotalScoreProps {
+    currentPlayer: string; // Здесь указывайте тип currentPlayer, например string
+    scores: {
+      X: number; // Здесь указывайте тип для X, например number
+      O: number; // Здесь указывайте тип для O, например number
+    };
+  }
 
-const TotalScore = ({currentPlayer, scores}) => {
+const TotalScore = ({currentPlayer, scores}: TotalScoreProps) => {
 
     // const test = () => {
     //     for(const month in summer) {

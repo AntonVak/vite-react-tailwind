@@ -4,6 +4,8 @@ import TotalScore from "../TotalScore/TotalScore";
 
 type Scores = {
   [key: string]: number;
+  X: number;
+  O: number;
 };
 
 const INITIAL_GAME_STATE = ['','','','','','','','','', ];
@@ -23,7 +25,7 @@ const PlateGame = () => {
     const [game, setGame] = useState(INITIAL_GAME_STATE);
     const [currentPlayer, setCurrentPlayer] = useState("X");
     const [scores, setScores] = useState(INITIAL_SCORES);
-console.log(currentPlayer);
+
 
     useEffect(() => {
       if (game === INITIAL_GAME_STATE) {
