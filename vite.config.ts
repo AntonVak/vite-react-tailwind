@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:"/vite-react-tailwind/",
   plugins: [react()],
-  base:"/vite-react-tailwind/"
+  
 })
